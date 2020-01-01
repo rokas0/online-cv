@@ -3,42 +3,48 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Os (Osvaldas) Rokas
+    tagline: Cloud Architect
+ #   avatar: aws-certified.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: hey@rokas.cloud
+    # phone: 012 345 6789
+    website: rokas.cloud #do not add http://
+    linkedin: os-osvaldas-r-8100a048
+    github: rokas0
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Lithuanian
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Danish
+        level: Intermediate
+
+      - idiom: Russian
+        level: Intermediate
 
       - idiom: Spanish
-        level: Professional
+        level: Intermediate
 
     interests:
-      - item: Climbing
+      - item: Globetrotting
         link:
 
-      - item: Snowboarding
+      - item: Reading
         link:
 
       - item: Cooking
@@ -47,143 +53,161 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Certified cloud architect with 10+ years of designing and building software solutions.
+      Current interests are serverless solutions, containers, security, scaling and reliability.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Software Engineering
+      university: De Montfort University
+      time: 2015 - 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Published an article to a scientific journal
+          - Advanced Requirements Engineering and Software Architecture – 71% (distinction)
+          - Agile Project Management – 74% (distinction)
+    - degree: BEng in Information and Communication Technology Engineering
+      university: VIA University College, Denmark
+      time: 2009 - 2013
+      # details: |
+      #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #   pretium quis, sem.
+      #     - Bullet point
+      #     - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Head of Platform Architecture
+      time: 2019 - Present
+      company: Korelogic Ltd, Leeds
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        The role holds responsibility for reliability, security, operations, performance and costs
+          - Evaluated cloud solutions using AWS Well-Architected Framework
+          - Designed serverless solutions using Lambda, DynamoDB and S3
+          - Architected AWS VPC communication with on-premises data centre
+          - Introduced Active Directory to authenticate with internal tools
+          - Granted least privilege access to AWS resources for colleagues and internal tools
+          - Produced a container solution using ECS and Fargate
+          - Reduced AWS bills by using more efficient cloud solutions
+          - Designed software deployment solution using Azure Intune and Azure AD
+    - role: Software Engineer
+      time: 2017 - 2019
+      company: Sky Betting and Gaming, Leeds
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Building a new serverless messaging system from scratch
+          - Kafka used to transmit data from on-premises to AWS
+          - We used AWS ECS Fargate to run Kafka Connect containers
+          - The architecture was serverless. A client would hit API Gateway and validate there, pass it to SNS later to SQS. Lambda would pull a message and send it to AWS IoT and DynamoDB
+          - We used Terraform to build infrastructure as a code
+          - Deployments were done by us on a daily basis
+          - Configuring Jenkins in groovy and Makefile were done by us too
+          - Daily stand-ups, sprint retrospectives and progress tracking on Jira
+    - role: Senior Java PHP developer (Contract)
+      time: 2016 - 2017
+      company: Plusnet (BT) / Tata Consultancy Service, Sheffield
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        Solving engineering problems with help from architects and business analysts
+          - Working in Agile team with 6 developers and testers having 2-week sprints
+          - Sprints would start receiving high-level design from an architect and a developer has to poduce a low-level design
+          - Continuous integration tool Jenkins was used to deploy changes live every second week
+          - Designing test cases using Test-driven development (TDD), mocks and integration tests
+    - role: Web developer
+      time: 2012 - 2016
+      company: Invitetobuy.dk, Copenhagen, Denmark
+      details: |
+        Main responsibility was to develop a rapidly growing e-shop mainly focusing on backend
+          - Developing plugins for content-management-system which was either Drupal or Prestashop
+          - Test-driven development (TDD) employed for both PHP and JavaScript code
+          - REST used to connect to external servers
+          - JavaScript was using Ajax and called build REST services on PHP
+    - role: Web developer
+      time: 2007 - 2009
+      company: Virtual.lt, Panevezys, Lithuania
+      details: |
+        Developed a content management system from scratch and installed it into 100+ websites
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+certifications:
+      title: Certifications
+#      intro: > 
+#          asdfasdf
+      assignments:
+        - title: AWS Certified Solutions Architect - Associate (9PPYQKD1N111QK53)
+          link: http://aws.amazon.com/verification
+          tagline: 2019 July
+        - title: AWS Certified SysOps Administrator - Associate (ZGTRX7J1BNQ41KS7)
+          link: http://aws.amazon.com/verification
+          tagline: 2019 April
+        - title: AWS Certified Developer - Associate (0FHYR9T2HMQ11VW6)
+          link: http://aws.amazon.com/verification
+          tagline: 2018 March
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: 'Healthcare in the Smart Home: A Study of Past, Present and Future'
+        link: https://www.mdpi.com/2071-1050/9/5/840
+        authors: Jamie Bennett, Osvaldas Rokas and Liming Chen
+        conference: Sustainability 2017
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      # - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      #   link: "#"
+      #   authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      #   conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      # - title: A syntax directed compiler for Algol 60
+      #   link: "#"
+      #   authors: Edgar T. Irons
+      #   conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
+# 
+#     toolset:
+#       - name: AWS
+#         level: 98%
+# 
+#       - name: DevOps
+#         level: 90%
+# 
+#       - name: NodeJS
+#         level: 80%
+# 
+#       - name: Infrastructure as code
+#         level: 90%
+# 
+#       - name: Kafka
+#         level: 85%
+# 
+#       - name: SQS
+#         level: 60%
 
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
